@@ -21,18 +21,17 @@ const Navbar = () => {
 
       {/* Desktop menu */}
       <ul className='hidden md:flex items-start space-x-5 font-medium'>
-        <NavLink to='/'>
-          <li className='py-1'>Home</li>
-        </NavLink>
-        <NavLink to='/doctors'>
-          <li className='py-1'>All Doctors</li>
-        </NavLink>
-        <NavLink to='/about'>
-          <li className='py-1'>About</li>
-        </NavLink>
-        <NavLink to='/contact'>
-          <li className='py-1'>Contact</li>
-        </NavLink>
+        <NavLink to='/'><li className='py-1'>Home</li></NavLink>
+        <NavLink to='/doctors'><li className='py-1'>All Doctors</li></NavLink>
+        <NavLink to='/about'><li className='py-1'>About</li></NavLink>
+        <NavLink to='/contact'><li className='py-1'>Contact</li></NavLink>
+
+        {/* Admin link added */}
+        <li className='py-1 rounded-full'>
+          <a href="https://prescriber-admin.onrender.com" target="_blank" rel="noopener noreferrer">
+            Admin Page
+          </a>
+        </li>
       </ul>
 
       {/* Right side user section */}
@@ -77,6 +76,11 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded inline-block'>All Doctors</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded inline-block'>About</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded inline-block'>Contact</p></NavLink>
+
+            {/* Admin link added to mobile */}
+            <a href="https://prescriber-admin.onrender.com" target="_blank" rel="noopener noreferrer">
+              <p className='px-4 py-2 rounded inline-block'>Admin</p>
+            </a>
           </ul>
         </div>
       </div>
