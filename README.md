@@ -3,7 +3,7 @@
 
 Live Website: [https://prescriber-dev1.onrender.com](https://prescriber-dev1.onrender.com)
 
-Prescrpto is a full-featured web application that allows patients to seamlessly book doctor appointments, manage profiles, and access healthcare information—all from one place.
+Prescripto is a full-featured web application that allows patients to seamlessly book doctor appointments, manage profiles, and access healthcare information—all from one place.
 
 ---
 
