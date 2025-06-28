@@ -1,9 +1,9 @@
 
-# 🩺 Prescriber - Online Doctor Appointment Booking Platform
+# 🩺 Prescripto - Online Doctor Appointment Booking Platform
 
 Live Website: [https://prescriber-dev1.onrender.com](https://prescriber-dev1.onrender.com)
 
-Prescriber is a full-featured web application that allows patients to seamlessly book doctor appointments, manage profiles, and access healthcare information—all from one place.
+Prescrpto is a full-featured web application that allows patients to seamlessly book doctor appointments, manage profiles, and access healthcare information—all from one place.
 
 ---
 
