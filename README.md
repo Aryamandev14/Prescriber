@@ -53,7 +53,7 @@ Prescripto is a full-featured web application that allows patients to seamlessly
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/prescriber.git
+   git clone https://github.com/Aryamandev14/prescriber.git
    cd prescriber
 
 
