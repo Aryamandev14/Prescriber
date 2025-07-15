@@ -28,11 +28,11 @@ const App = () => {
         <Route path='/my-appointments' element={<MyAppoints/>}/>
         <Route path='/appointment/:docId' element={<Appointments/>}/>
 
-
+//aryaman///////////
 
 
       </Routes>
-      <Footer/> {/*will be visible in all the pages */ }
+      <Footer/> 
 
     </div>
   )
