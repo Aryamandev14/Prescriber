@@ -85,15 +85,11 @@ Prescripto is a full-featured web application that allows patients to seamlessly
 
 ---
 
-## 🤝 Contributors
+## 🙋‍♂️ Author
 
 * Aryaman Dev Kumar – [@aryamandev](https://github.com/Aryamandev14)
 
 ---
-
-## 📄 License
-
-MIT License
 
 ---
 
