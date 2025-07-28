@@ -25,13 +25,13 @@ const Navbar = () => {
         <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5 m-auto hidden'/>
         </NavLink>
         <NavLink to='/doctors'><li className='py-1'>All Doctors</li>
-        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5 m-auto hidden'/>
         </NavLink>
         <NavLink to='/about'><li className='py-1'>About</li>
-        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5 m-auto hidden'/>
         </NavLink>
         <NavLink to='/contact'><li className='py-1'>Contact</li>
-        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5 m-auto hidden'/>
         </NavLink>
 
         {/* Admin link added */}
@@ -56,8 +56,8 @@ const Navbar = () => {
               {showDropdown && (
                 <div className='absolute top-12 right-0 text-base font-medium text-gray-600 z-20'>
                   <div className='min-w-48 bg-stone-100 rounded flex flex-col gap-4 p-4'>
-                    <p onClick={() => { navigate('my-profile'); setShowDropdown(false); }} className='hover:text-black cursor-pointer'>My Profile</p>
-                    <p onClick={() => { navigate('my-appointments'); setShowDropdown(false); }} className='hover:text-black cursor-pointer'>My Appointments</p>
+                    <p onClick={() => { navigate('/my-profile'); setShowDropdown(false); }} className='hover:text-black cursor-pointer'>My Profile</p>
+                    <p onClick={() => { navigate('/my-appointments'); setShowDropdown(false); }} className='hover:text-black cursor-pointer'>My Appointments</p>
                     <p onClick={logout} className='hover:text-black cursor-pointer'>Logout</p>
                   </div>
                 </div>
