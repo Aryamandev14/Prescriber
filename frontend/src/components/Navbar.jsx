@@ -21,10 +21,18 @@ const Navbar = () => {
 
       {/* Desktop menu */}
       <ul className='hidden md:flex items-start space-x-5 font-medium'>
-        <NavLink to='/'><li className='py-1'>Home</li></NavLink>
-        <NavLink to='/doctors'><li className='py-1'>All Doctors</li></NavLink>
-        <NavLink to='/about'><li className='py-1'>About</li></NavLink>
-        <NavLink to='/contact'><li className='py-1'>Contact</li></NavLink>
+        <NavLink to='/'><li className='py-1'>Home</li>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5 m-auto hidden'/>
+        </NavLink>
+        <NavLink to='/doctors'><li className='py-1'>All Doctors</li>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        </NavLink>
+        <NavLink to='/about'><li className='py-1'>About</li>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        </NavLink>
+        <NavLink to='/contact'><li className='py-1'>Contact</li>
+        <hr className='border-none outline-none h-0.5 bg-purple-300 w-3/5m-auto hidden'/>
+        </NavLink>
 
         {/* Admin link added */}
         <li className='py-1 rounded-full'>
